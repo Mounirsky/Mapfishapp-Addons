@@ -1,0 +1,51 @@
+{
+    "js": [
+        "js/main.js"
+    ],
+    "css": [
+        "css/main.css"
+    ],
+    "default_options": {
+        "urlBaseLayer": "http://geo.gob.bo/geoserver/wms",
+        "nameBaseLayer": "fondos:openstreetmap",
+        "urlWmsCapabilities": "http://test.geo.gob.bo/geoserver/dmpinundacion/wms"
+    },
+    "i18n": {
+        "en": {
+            "GeoCrono":"GeoCrono",
+            "Start":"Iniciar",
+            "End":"Fin",
+            "Day":"Día",
+            "Delay":"Delay",
+            "Slow":"Slow",
+            "Normal":"Normal",
+            "Fast":"Fast",
+            "Select a layer":"Seleccione una capa",
+            "Server unavailable":"Servidor no disponible"
+        },
+        "es": {
+            "GeoCrono":"GeoCrono",
+            "Start":"Iniciar",
+            "End":"Fin",
+            "Day":"Día",
+            "Delay":"Delay",
+            "Slow":"Lento",
+            "Normal":"Normal",
+            "Fast":"Rapido",
+            "Select a layer":"Seleccione una capa",
+            "Server unavailable":"Servidor no disponible"
+        },
+        "fr": {
+            "GeoCrono":"GeoCrono",
+            "Start":"Initier",
+            "End":"Fin",
+            "Day":"Début",
+            "Delay":"Dleais",
+            "Slow":"Lent",
+            "Normal":"Normal",
+            "Fast":"Rapide",
+            "Select a layer":"Selectionner une couche",
+            "Server unavailable":"Serveur non disponible"
+        }
+    }
+}

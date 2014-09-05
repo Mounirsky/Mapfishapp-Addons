@@ -1,0 +1,42 @@
+{
+    "js": [
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WCSGetCoverage.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/OWSCommon/v1_1_0.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WPSDescribeProcess.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WKT.js",
+        "../../../lib/externals/ext/examples/ux/fileuploadfield/FileUploadField.js",
+        "js/WPSAxecute.js",
+        "js/main.js"
+        
+    ],
+    "css": [
+        "css/main.css"
+    ],
+    "default_options": {
+
+        "WPS_URL": "http://geoxxx.agrocampus-ouest.fr/cgi-bin/geouest.cgi",
+        "WPS_identifier": "timeout_test",
+        "default_time": "60"
+    },
+    "i18n": {
+        "en": {
+            "addon_wpstimer_title": "_Processing options and settings",
+            "help_window_title": "Help"
+        },
+        "fr": {
+            "addon_wpstimer_title": "_Options et réglages du traitement",
+            "help_window_title": "Aide",
+            "Help": "Aide",
+            "Close": "Fermer",
+            "Execute": "Exécuter",
+            "Processing ...": "Traitement en cours ...",
+            "Processing time (s)": "Temps de traitement (s)"
+        },
+        "es": {
+            "addon_wpstimer_title": "_Options et réglages du traitement"
+        },
+         "de": {
+            "addon_wpstimer_title": "_Options et réglages du traitement"
+        }
+    }
+}

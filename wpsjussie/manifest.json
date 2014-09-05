@@ -1,0 +1,77 @@
+{
+    "js": [
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WCSGetCoverage.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/OWSCommon/v1_1_0.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WPSDescribeProcess.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WKT.js",
+        "../../../lib/externals/ext/examples/ux/fileuploadfield/FileUploadField.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WFST/v1_1_0.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Icon.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Marker.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Layer/Markers.js",
+
+        "js/WPSAxecute.js",
+        "js/main.js"
+    ],
+    "css": [
+        "css/main.css"
+    ],
+    "default_options": {
+
+        "wps_URL": "http://geoxxx.agrocampus-ouest.fr/cgi-bin/geouest.cgi",
+        "wps_Identifier": "SIGnature_target_WPS",
+        "enableIMG":[],
+
+        "default_angle": 1.0,
+
+        "Nclass_data": [
+            ["3", 3],
+            ["2", 2]
+        ],
+
+        "default_Nclass": "3"
+
+    },
+    "i18n": {
+        "en": {
+            "addon_wpsjussie_title": "Processing's options and settings",
+            "help_window_title": "Help"
+        },
+        "fr": {
+            "addon_wpsjussie_title": "Options et réglages du traitement",
+            "Help": "Aide",
+            "help_window_title": "Aide",
+            "Close": "Fermer",
+            "Execute without ROI": "Exécuter sans ROI",
+            "Execute with ROI": "Exécuter avec ROI",
+            "Draw ROI": "Déssiner ROI",
+            "Clear ROI": "Effacer ROI",
+            "Refresh":"Actualiser",
+            "Settings": "Paramètres",
+            "Draw Ground truth":"Déssiner Vérité terrain",
+            "Datas Inputs":"Données en entrée",
+            "Processing ...": "Traitement en cours ...",
+            "Spot Image Input (Required)": "Image Spot à traiter (Recquis)",
+            "Clip Area (Optionel)": "Zone de découpage (Optionel)",
+            "Angle Degrees (SAM)": "Angle en degrés (SAM)",
+            "Number of clusters (ISODATA)": "Nombre de classes (ISODATA)",
+            "Enter your Email (Required)": "Entrer votre Email (Recquis)",
+            "This field should be filled in by your e-mail address": "Ce champ doit être renseigné par votre adresse email",
+            "Select your Image": "Sélectioner votre Image",
+            "Select your Clip Zone": "Sélectioner la zone de découpage",
+            "Please select at least an Image !":"Sélectioner au moins une Image !",
+            "Please select at least an Image and/or Draw an ROI !": "Sélectioner au moins une Image et/ou déssiner un ROI !",
+            "You can waite until the end of the process or Leave and check the result on your email later.": "Vous pouvez attendre jusqu'à la fin du traitement ou Quiter et vérifier votre e-mail ultérieurement."
+        },
+        "es": {
+            "addon_wpsjussie_title": "Processing's options and settings",
+            "help_window_title": "Help"
+
+        },
+         "de": {
+            "addon_wpsjussie_title": "Processing's options and settings",
+            "help_window_title": "Help"
+            
+        }
+    }
+}

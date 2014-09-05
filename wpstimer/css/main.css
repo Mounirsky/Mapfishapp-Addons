@@ -1,0 +1,13 @@
+.process_time_icon {
+	background-image: url(../img/icon_time.png) !important;
+	height:20px !important;
+    width:20px !important;
+}
+
+.windo_icon{
+	background-image: url(../img/icon3.png)!important;
+}
+
+.help_icon{
+	background-image: url(../img/Help.png)!important;
+}

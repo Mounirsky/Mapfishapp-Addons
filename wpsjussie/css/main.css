@@ -1,0 +1,50 @@
+.process_icon {
+	background-image: url(../img/icon4.png) !important;
+	height:20px !important;
+    width:20px !important;
+}
+.jussie_icon {
+	background-image: url(../img/jussie.png) !important;
+}
+
+.input_icon {
+	background-image: url(../img/input.png) !important;
+}
+.wind_icon{
+	background-image: url(../img/setting.png)!important;
+}
+
+.param_icon{
+  background-image: url(../img/icon2.png)!important;
+}
+
+.draw_icon{
+  background-image: url(../img/draw.png)!important;
+}
+
+.delete_icon{
+  background-image: url(../img/delete.png)!important;
+}
+
+.preceed_icon{
+  background-image: url(../img/preceed.png)!important;
+}
+
+.ok_icon{
+  background-image: url(../img/ok.png)!important;
+}
+
+.help_win_icon{
+	background-image: url(../img/Help.png)!important;
+}
+
+.close_icon{
+	background-image: url(../img/close.png)!important;
+}
+
+.myLoader {
+    left : 0px !important;
+    top: initial !important;
+    bottom : 0px !important;
+}
+

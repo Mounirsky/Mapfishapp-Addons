@@ -1,0 +1,15 @@
+#mapFront{
+    position: absolute;
+    top: 30;
+    width: 100%; height:100%;
+}
+
+.icon {
+    background-image: url(../img/icon.png) !important;
+}
+.start-icon{
+	background-image: url(../img/start.png) !important;
+}
+.stop-icon{
+	background-image: url(../img/stop.png) !important;
+}
