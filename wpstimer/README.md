@@ -3,6 +3,7 @@ wpstimer ADDON
 
 This addon allows users to test a WPS.
 
+
 author: @Mounirsky
 
 Typical configuration to include in your GEOR_custom.js file:
